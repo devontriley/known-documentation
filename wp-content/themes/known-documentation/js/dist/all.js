@@ -10555,7 +10555,7 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
                       Authorization: 'Bearer '+app_key
                   }
               }
-          ).then(function(response){
+          ).then(function(response) {
               self.items = response.data.records;
               console.log(self.items);
               if(self.items) {
@@ -10576,7 +10576,6 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
           });
       }
   }
-
 
   /*
   Check page content for ***View Name***

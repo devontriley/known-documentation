@@ -18,7 +18,7 @@
                       Authorization: 'Bearer '+app_key
                   }
               }
-          ).then(function(response){
+          ).then(function(response) {
               self.items = response.data.records;
               console.log(self.items);
               if(self.items) {
@@ -39,7 +39,6 @@
           });
       }
   }
-
 
   /*
   Check page content for ***View Name***
