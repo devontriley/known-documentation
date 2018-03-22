@@ -14,7 +14,6 @@ wp-content/plugins/hello.php
 
 wp-includes
 wp-admin
-*.php
 node_modules
 
 /.htaccess
