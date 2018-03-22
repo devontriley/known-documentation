@@ -20,7 +20,7 @@ gulp.task('scripts', function() {
         path+'/.build/node_modules/jquery/dist/jquery.min.js',
         path+'/.build/node_modules/airtable/build/airtable.browser.js',
         path+'/.build/node_modules/axios/dist/axios.min.js',
-        path+'/js/src/**/*.js'
+        path+'/js/src/scripts.js'
     ])
         .pipe(concat('all.js'))
         //.pipe(minify())
@@ -29,5 +29,5 @@ gulp.task('scripts', function() {
 
 gulp.task('default', function(){
     gulp.watch(path+'/styles/**/*.scss', ['sass']);
-    gulp.watch(path+'/js/src/*.js', ['scripts'])
+    gulp.watch(path+'/js/src/scripts.js', ['scripts'])
 });
